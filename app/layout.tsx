@@ -26,14 +26,14 @@ export default function RootLayout({
         <ThemeProvider>
           <div className="flex min-h-svh flex-col">
             <header className="border-b bg-background/95">
-              <div className="mx-auto flex h-16 w-full max-w-5xl items-center gap-3 px-6">
+              <div className="mx-auto flex h-16 w-full max-w-5xl items-center gap-2.5 px-6">
                 <span
                   aria-hidden="true"
-                  className="flex size-10 items-center justify-center rounded-full bg-primary/10 text-2xl"
+                  className="flex size-9 items-center justify-center rounded-full bg-primary/10 text-xl leading-none"
                 >
                   🦩
                 </span>
-                <span className="text-lg font-semibold tracking-tight">
+                <span className="text-lg font-semibold leading-none tracking-tight">
                   Flamingo
                 </span>
               </div>
