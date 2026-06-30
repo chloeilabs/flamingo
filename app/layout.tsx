@@ -26,10 +26,10 @@ export default function RootLayout({
         <ThemeProvider>
           <div className="flex min-h-svh flex-col">
             <header className="border-b bg-background/95">
-              <div className="flex h-16 w-full items-center gap-2.5 px-6">
+              <div className="flex h-16 w-full items-center gap-2 px-6">
                 <span
                   aria-hidden="true"
-                  className="flex size-9 items-center justify-center rounded-full bg-primary/10 text-xl leading-none"
+                  className="text-2xl leading-none"
                 >
                   🦩
                 </span>
